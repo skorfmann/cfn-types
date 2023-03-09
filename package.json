@@ -1,0 +1,26 @@
+{
+  "name": "cfn-types",
+  "version": "0.2.0",
+  "description": "Full types of AWS CloudFormation from us-east-1",
+  "scripts": {
+    "build": "ts-node cfn2ts.ts"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "types",
+    "cfn"
+  ],
+  "author": "Sebastian Korfmann <sebastian@korfmann.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skorfmann/cfn-types.git"
+  },
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "json-schema-to-typescript": "^12.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}

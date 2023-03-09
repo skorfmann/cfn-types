@@ -1,0 +1,6 @@
+export * from './datarepositoryassociation'
+export * from './filesystem'
+export * from './index'
+export * from './snapshot'
+export * from './storagevirtualmachine'
+export * from './volume'

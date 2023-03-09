@@ -1,0 +1,7 @@
+export * from './accesspoint'
+export * from './bucket'
+export * from './bucketpolicy'
+export * from './index'
+export * from './multiregionaccesspoint'
+export * from './multiregionaccesspointpolicy'
+export * from './storagelens'
